@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.dog{
+  border: solid;
+  background: lightblue;
+  width: 33%;
+  padding: 2rem;
+  margin: 2rem auto;
+}
+img {
+  height: 25%;
+  width: 30%;
+}
+.add-dog-form {
+display: block;
+}
+
+.add-dog-form input{
+  padding: 2rem;
+  margin: 2rem;
+  }
