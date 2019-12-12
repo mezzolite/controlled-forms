@@ -8,10 +8,9 @@ class Form extends Component {
         age: 0,
         image: ""
     }
+    
     handleChange = event => {
-        const newDog = this.state
-        newDog[event.target.name] = event.target.value
-        this.setState({ newDog })
+        this.setState({ [event.target.name]: event.target.value })
     }
 
     submitHandler = event => {
